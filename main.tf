@@ -22,6 +22,7 @@ provider "google" {
 #   }
 # }
 
+/*
 resource "google_compute_instance" "main" {
   name         = "richie-test2"
   machine_type = "e2-micro"
@@ -46,4 +47,5 @@ resource "google_compute_instance" "main" {
   }
 
 }
+*/
 
