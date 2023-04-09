@@ -8,7 +8,7 @@ terraform {
 }
 // Configure the Google Cloud provider
 provider "google" {
-  credentials = file("credentials_file.json")
+  credentials = jsondecode(var.GCP_Terraform_SA)
   project     = "devops-test-361018"
   region      = "asia-southeast2"
 }
